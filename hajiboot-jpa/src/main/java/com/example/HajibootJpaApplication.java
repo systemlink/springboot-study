@@ -10,7 +10,7 @@ import com.example.repository.CustomerRepository;
  
 
 @SpringBootApplication
-public class HajibootJdbcApplication implements CommandLineRunner {
+public class HajibootJpaApplication implements CommandLineRunner {
 	@Autowired
 	CustomerRepository customerRepository;
 
@@ -24,6 +24,6 @@ public class HajibootJdbcApplication implements CommandLineRunner {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(HajibootJdbcApplication.class, args);
+		SpringApplication.run(HajibootJpaApplication.class, args);
 	}
 }

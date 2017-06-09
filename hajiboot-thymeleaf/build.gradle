@@ -46,6 +46,7 @@ dependencies {
 	compile('org.flywaydb:flyway-core:4.2.0')
 	compile('org.webjars:bootstrap:3.3.7')
 	compile("org.springframework.boot:spring-boot-devtools")
+	compile('org.thymeleaf.extras:thymeleaf-extras-springsecurity4')
 	
 	runtime('com.h2database:h2')
 	compileOnly('org.projectlombok:lombok')

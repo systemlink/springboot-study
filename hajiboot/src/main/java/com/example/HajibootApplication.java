@@ -11,7 +11,7 @@ public class HajibootApplication {
 
 	@GetMapping
 	String home() {
-		return "Hello Spring!";
+		return "Hello World!";
 	}
 
 	public static void main(String[] args) {
